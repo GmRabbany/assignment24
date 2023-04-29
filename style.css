@@ -367,7 +367,10 @@ ul{
 /* animation section */
 
 .banner-animation{
-    background: url(./video-bg.jpg);
+    background-image: url(./video-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
     height: 800px;
 
    
